@@ -1,16 +1,16 @@
 # Hi there, I'm Panuwit Thanyadee 👋
 ### Software Developer & AI Enthusiast
 
-I am a Computer Science student at Rangsit University with a strong passion for solving complex problems through code. My core focus lies at the intersection of **Software Developer & Software Engineering. Passionate about Full Stack Developer, Data Analytics**, **Artificial Intelligence**, and system automation. I enjoy building practical solutions, from real-time computer vision models to hardware integration.
+I am a Computer Science student at Rangsit University with a strong passion for solving complex problems through code. My core focus lies at the intersection of **Software Developer & Software Engineering. Passionate about Backend, Full Stack Developer, Data Analytics**, **Artificial Intelligence**, and system automation. I enjoy building practical solutions, from real-time computer vision models to hardware integration.
 
 ## 🚀 About Me
 - 🎓 Currently studying Computer Science at **Rangsit University**.
-- 💡 Focusing my professional development on **Data Analytics** and intelligent systems.
+- 💡 Focusing my professional development on **Software Developer & Software Engineering. Backend, Full Stack Developer, Data Analytics** and intelligent systems.
 - 🔬 **Interests:** Computer Vision, Data Automation, UI/UX for Security Platforms, and IoT.
 - 🌱 Currently exploring advanced techniques in data visualization and machine learning.
 
 ## 🛠️ Tech Stack & Skills
-- **Languages:** Python, C++, SQL
+- **Languages:** Java, Python, C++, SQL
 - **AI & Computer Vision:** OpenCV, YOLO framework (Object Detection)
 - **Automation & Scripting:** AutoHotkey (AHK), Macro development
 - **Hardware & IoT:** Arduino, Raspberry Pi, ESP8266/ESP32
@@ -23,9 +23,9 @@ I am a Computer Science student at Rangsit University with a strong passion for 
 - **Academic Achievement:** Consistently maintaining strong academic standing while collaborating on complex technical coursework and presentations.
 
 ## 📫 Let's Connect!
-- **Email:** [Your Email Address]
-- **LinkedIn:** [Your LinkedIn URL]
-- **Portfolio:** [Your Website URL if you have one]
+- **Email:** Chogunzaza8@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/panuwit-thanyadee-98a70b200/
+- **Portfolio:** https://my-portfolio-six-virid-27.vercel.app/
 
 ---
 ⭐️ *Always eager to learn new technologies and collaborate on data-driven projects.*
@@ -39,12 +39,12 @@ I am a Computer Science student at Rangsit University with a strong passion for 
 
 ## 🚀 เกี่ยวกับผม
 - 🎓 ปัจจุบันเป็นนักศึกษา Computer Science ที่ **มหาวิทยาลัยรังสิต**
-- 💡 มุ่งเน้นการพัฒนาทักษะและประสบการณ์เพื่อต่อยอดในสายงาน **Data Analytics**
+- 💡 มุ่งเน้นการพัฒนาทักษะและประสบการณ์เพื่อต่อยอดในสายงาน **Software Developer & Software Engineering. Backend, Full Stack Developer, Data Analytics**
 - 🔬 **ความสนใจ:** Computer Vision, การทำ Data Automation, UI/UX สำหรับระบบความปลอดภัย และงานด้าน IoT
 - 🌱 ตอนนี้กำลังศึกษาและทดลองเทคนิคใหม่ๆ ด้าน Machine Learning และการจัดการข้อมูล
 
 ## 🛠️ ทักษะและเครื่องมือ
-- **Languages:** Python, C++, SQL
+- **Languages:** Java, Python, C++, SQL
 - **AI & Computer Vision:** OpenCV, YOLO framework (Object Detection)
 - **Automation & Scripting:** AutoHotkey (AHK), การเขียนสคริปต์อัตโนมัติ
 - **Hardware & IoT:** Arduino, Raspberry Pi, ESP8266/ESP32
@@ -56,10 +56,10 @@ I am a Computer Science student at Rangsit University with a strong passion for 
 - **Data & Automation:** เขียนสคริปต์ดึงข้อมูลสภาพอากาศและจัดการรายงานผลข้อมูลอัตโนมัติ รวมถึงการเขียนมาโครเพื่อลดขั้นตอนการทำงาน
 - **Academic Achievement:** มีผลการเรียนที่โดดเด่น และมีประสบการณ์ในการนำเสนอโปรเจกต์ทางเทคนิคระดับมหาวิทยาลัย
 
-## 📫 ช่องทางการติดต่อ
-- **Email:** [ใส่อีเมลของคุณ]
-- **LinkedIn:** [ใส่ลิงก์ LinkedIn]
-- **Portfolio:** [ใส่ลิงก์เว็บไซต์พอร์ตโฟลิโอ ถ้ามี]
+## 📫 Let's Connect!
+- **Email:** Chogunzaza8@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/panuwit-thanyadee-98a70b200/
+- **Portfolio:** https://my-portfolio-six-virid-27.vercel.app/
 
 ---
 ⭐️ *พร้อมเสมอที่จะเรียนรู้เทคโนโลยีใหม่ๆ และเปิดรับโอกาสในการฝึกงานหรือร่วมงานในโปรเจกต์ด้าน Data และ AI*
