@@ -1,5 +1,5 @@
 # Hi there, I'm Panuwit Thanyadee 👋
-### Software Developer & AI Enthusiast
+### Software Developer & Software Engineering.
 
 I am a Computer Science student at Rangsit University with a strong passion for solving complex problems through code. My core focus lies at the intersection of **Software Developer & Software Engineering. Passionate about Backend, Full Stack Developer, Data Analytics**, **Artificial Intelligence**, and system automation. I enjoy building practical solutions, from real-time computer vision models to hardware integration.
 
@@ -35,7 +35,7 @@ I am a Computer Science student at Rangsit University with a strong passion for 
 ---
 
 # สวัสดีครับ ผม ภาณุวิชญ์ ธัญญาดี 👋
-### Software Developer & AI Enthusiast
+### Software Developer & Software Engineering.
 
 ผมกำลังศึกษาสาขาวิทยาการคอมพิวเตอร์ที่มหาวิทยาลัยรังสิต มีความหลงใหลในการแก้ปัญหาผ่านการเขียนโค้ดและการพัฒนาระบบ ผมมีความสนใจเป็นพิเศษในสายงาน **Data Analytics**, **Artificial Intelligence** และการทำ Automation ชอบสร้างสรรค์โปรเจกต์ที่ใช้งานได้จริง ตั้งแต่โมเดล Computer Vision ไปจนถึงระบบ IoT
 
