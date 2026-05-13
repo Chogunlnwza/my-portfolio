@@ -1,16 +1,65 @@
-# React + Vite
+# Hi there, I'm Panuwit Thanyadee 👋
+### Software Developer & AI Enthusiast
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I am a Computer Science student at Rangsit University with a strong passion for solving complex problems through code. My core focus lies at the intersection of **Data Analytics**, **Artificial Intelligence**, and system automation. I enjoy building practical solutions, from real-time computer vision models to hardware integration.
 
-Currently, two official plugins are available:
+## 🚀 About Me
+- 🎓 Currently studying Computer Science at **Rangsit University**.
+- 💡 Focusing my professional development on **Data Analytics** and intelligent systems.
+- 🔬 **Interests:** Computer Vision, Data Automation, UI/UX for Security Platforms, and IoT.
+- 🌱 Currently exploring advanced techniques in data visualization and machine learning.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack & Skills
+- **Languages:** Python, C++, SQL
+- **AI & Computer Vision:** OpenCV, YOLO framework (Object Detection)
+- **Automation & Scripting:** AutoHotkey (AHK), Macro development
+- **Hardware & IoT:** Arduino, Raspberry Pi, ESP8266/ESP32
+- **Data Analytics:** Data processing, CSV/Excel report automation
 
-## React Compiler
+## 🏆 Academic & Project Highlights
+- **Real-Time Object Detection:** Developed a computer vision system using YOLO and OpenCV to detect, count, and calculate the total value of coins in real-time.
+- **Hardware Integration:** Designed and implemented an Arduino-based smart car parking system.
+- **Data & Automation:** Engineered scripts to automate weather data reporting using supercomputer datasets and developed efficient workflow macros.
+- **Academic Achievement:** Consistently maintaining strong academic standing while collaborating on complex technical coursework and presentations.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📫 Let's Connect!
+- **Email:** [Your Email Address]
+- **LinkedIn:** [Your LinkedIn URL]
+- **Portfolio:** [Your Website URL if you have one]
 
-## Expanding the ESLint configuration
+---
+⭐️ *Always eager to learn new technologies and collaborate on data-driven projects.*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+--
+
+# สวัสดีครับ ผม ภาณุวิชญ์ ธัญดี 👋
+### Software Developer & AI Enthusiast
+
+ผมกำลังศึกษาสาขาวิทยาการคอมพิวเตอร์ที่มหาวิทยาลัยรังสิต มีความหลงใหลในการแก้ปัญหาผ่านการเขียนโค้ดและการพัฒนาระบบ ผมมีความสนใจเป็นพิเศษในสายงาน **Data Analytics**, **Artificial Intelligence** และการทำ Automation ชอบสร้างสรรค์โปรเจกต์ที่ใช้งานได้จริง ตั้งแต่โมเดล Computer Vision ไปจนถึงระบบ IoT
+
+## 🚀 เกี่ยวกับผม
+- 🎓 ปัจจุบันเป็นนักศึกษา Computer Science ที่ **มหาวิทยาลัยรังสิต**
+- 💡 มุ่งเน้นการพัฒนาทักษะและประสบการณ์เพื่อต่อยอดในสายงาน **Data Analytics**
+- 🔬 **ความสนใจ:** Computer Vision, การทำ Data Automation, UI/UX สำหรับระบบความปลอดภัย และงานด้าน IoT
+- 🌱 ตอนนี้กำลังศึกษาและทดลองเทคนิคใหม่ๆ ด้าน Machine Learning และการจัดการข้อมูล
+
+## 🛠️ ทักษะและเครื่องมือ
+- **Languages:** Python, C++, SQL
+- **AI & Computer Vision:** OpenCV, YOLO framework (Object Detection)
+- **Automation & Scripting:** AutoHotkey (AHK), การเขียนสคริปต์อัตโนมัติ
+- **Hardware & IoT:** Arduino, Raspberry Pi, ESP8266/ESP32
+- **Data Analytics:** การประมวลผลข้อมูล, การสร้าง Report อัตโนมัติ (CSV/Excel)
+
+## 🏆 ผลงานและโปรเจกต์ที่โดดเด่น
+- **Real-Time Object Detection:** พัฒนาระบบตรวจจับและนับเหรียญแบบเรียลไทม์ โดยใช้โมเดล YOLO และ OpenCV 
+- **Hardware Integration:** ออกแบบและพัฒนาระบบลานจอดรถอัจฉริยะ (Smart Car Parking) โดยใช้บอร์ด Arduino
+- **Data & Automation:** เขียนสคริปต์ดึงข้อมูลสภาพอากาศและจัดการรายงานผลข้อมูลอัตโนมัติ รวมถึงการเขียนมาโครเพื่อลดขั้นตอนการทำงาน
+- **Academic Achievement:** มีผลการเรียนที่โดดเด่น และมีประสบการณ์ในการนำเสนอโปรเจกต์ทางเทคนิคระดับมหาวิทยาลัย
+
+## 📫 ช่องทางการติดต่อ
+- **Email:** [ใส่อีเมลของคุณ]
+- **LinkedIn:** [ใส่ลิงก์ LinkedIn]
+- **Portfolio:** [ใส่ลิงก์เว็บไซต์พอร์ตโฟลิโอ ถ้ามี]
+
+---
+⭐️ *พร้อมเสมอที่จะเรียนรู้เทคโนโลยีใหม่ๆ และเปิดรับโอกาสในการฝึกงานหรือร่วมงานในโปรเจกต์ด้าน Data และ AI*
