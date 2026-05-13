@@ -34,7 +34,7 @@ I am a Computer Science student at Rangsit University with a strong passion for 
 
 ---
 
-# สวัสดีครับ ผม ภาณุวิชญ์ ธัญดี 👋
+# สวัสดีครับ ผม ภาณุวิชญ์ ธัญญาดี 👋
 ### Software Developer & AI Enthusiast
 
 ผมกำลังศึกษาสาขาวิทยาการคอมพิวเตอร์ที่มหาวิทยาลัยรังสิต มีความหลงใหลในการแก้ปัญหาผ่านการเขียนโค้ดและการพัฒนาระบบ ผมมีความสนใจเป็นพิเศษในสายงาน **Data Analytics**, **Artificial Intelligence** และการทำ Automation ชอบสร้างสรรค์โปรเจกต์ที่ใช้งานได้จริง ตั้งแต่โมเดล Computer Vision ไปจนถึงระบบ IoT
