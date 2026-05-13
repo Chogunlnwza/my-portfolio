@@ -30,7 +30,9 @@ I am a Computer Science student at Rangsit University with a strong passion for 
 ---
 ⭐️ *Always eager to learn new technologies and collaborate on data-driven projects.*
 
---
+<br />
+
+---
 
 # สวัสดีครับ ผม ภาณุวิชญ์ ธัญดี 👋
 ### Software Developer & AI Enthusiast
