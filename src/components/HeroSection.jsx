@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useState, useRef } from "react";
-import { FaGithub, FaDownload, FaArrowDown } from "react-icons/fa";
+import { FaDownload, FaUser } from "react-icons/fa";
 
 const ROLES = [
   "Software Developer",
@@ -188,17 +188,16 @@ export default function HeroSection({ darkMode }) {
           className="mt-10 flex flex-wrap gap-4 justify-center"
         >
           <a
-            href="https://github.com/Chogunlnwza"
-            target="_blank"
-            rel="noreferrer"
+            href="/Resume Panuwit.pdf"
+            download="Resume_Panuwit_Thanyadee.pdf"
             className="flex items-center gap-2 px-7 py-3.5 rounded-2xl font-semibold text-white transition-all hover:scale-105 hover:shadow-lg"
             style={{
               background: "linear-gradient(135deg, #06b6d4, #a855f7)",
               boxShadow: "0 8px 32px rgba(6,182,212,0.25)",
             }}
           >
-            <FaGithub size={18} />
-            View GitHub
+            <FaDownload size={18} />
+            Download Resume
           </a>
 
           <button
@@ -209,8 +208,8 @@ export default function HeroSection({ darkMode }) {
                 : "border-gray-200 text-gray-800 hover:bg-gray-100"
             }`}
           >
-            <FaArrowDown size={16} />
-            Explore
+            <FaUser size={16} />
+            About Me
           </button>
         </motion.div>
 

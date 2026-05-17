@@ -11,9 +11,33 @@ import {
 
 const GITHUB_USERNAME = "Chogunlnwza";
 
-export default function GithubCard({ githubProfile, darkMode }) {
+export default function GithubCard({ githubProfile, githubLoading, darkMode }) {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-80px" });
+
+  if (githubLoading && !githubProfile) {
+    return (
+      <section id="github-profile" className="mt-10" ref={ref}>
+        <div className={`rounded-3xl p-8 border shadow-2xl animate-pulse ${darkMode ? "bg-[#0d1424] border-white/5" : "bg-white border-gray-100"}`}>
+          <div className="flex items-center gap-5">
+            <div className="w-20 h-20 rounded-2xl bg-gray-300/30 flex-shrink-0" />
+            <div className="space-y-2">
+              <div className="h-6 w-36 rounded-xl bg-gray-300/30" />
+              <div className="h-4 w-24 rounded-lg bg-gray-300/20" />
+            </div>
+          </div>
+          <div className="grid grid-cols-4 gap-4 mt-8">
+            {[...Array(4)].map((_, i) => (
+              <div key={i} className={`rounded-2xl p-4 border ${darkMode ? "border-white/5 bg-white/3" : "border-gray-100 bg-gray-50"}`}>
+                <div className="w-8 h-8 rounded-xl bg-gray-300/30 mx-auto mb-2" />
+                <div className="h-6 w-10 rounded-lg bg-gray-300/30 mx-auto" />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    );
+  }
 
   if (!githubProfile) return null;
 

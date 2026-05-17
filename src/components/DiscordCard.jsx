@@ -10,9 +10,30 @@ const STATUS_CONFIG = {
   offline: { label: "Offline", color: "#6b7280", bgColor: "rgba(107,114,128,0.1)" },
 };
 
-export default function DiscordCard({ discordData, darkMode }) {
+export default function DiscordCard({ discordData, discordLoading, darkMode }) {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-80px" });
+
+  // Show skeleton while loading
+  if (discordLoading && !discordData) {
+    return (
+      <section className="mt-10" ref={ref}>
+        <div className={`rounded-3xl p-8 border shadow-2xl animate-pulse ${darkMode ? "bg-[#0d1424] border-white/5" : "bg-white border-gray-100"}`}>
+          <div className="flex items-center gap-3 mb-6">
+            <div className="w-6 h-6 rounded-full bg-gray-300/30" />
+            <div className="h-7 w-40 rounded-xl bg-gray-300/30" />
+          </div>
+          <div className="flex items-center gap-5">
+            <div className="w-20 h-20 rounded-2xl bg-gray-300/30 flex-shrink-0" />
+            <div className="space-y-2">
+              <div className="h-5 w-32 rounded-lg bg-gray-300/30" />
+              <div className="h-4 w-24 rounded-lg bg-gray-300/20" />
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  }
 
   if (!discordData?.discord_user) return null;
 
