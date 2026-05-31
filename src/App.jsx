@@ -141,12 +141,83 @@ const INITIAL_PROJECTS = [
       },
     ],
   },
+  {
+    title: "Smart Document Extraction",
+    category: "AI / Web App",
+    description:
+      "An AI-powered web app that automatically scans, crops, and extracts structured data from documents (ID cards, receipts, etc.) using Google Gemini 3.5, featuring secure authentication and private scan history via Supabase.",
+    image: "/Photos/smart-doc-extractor.png",
+    tech: ["TypeScript", "React", "Gemini AI", "Supabase"],
+    github: "https://github.com/Chogunlnwza/Smart-Document-Extraction",
+    demo: "https://smart-document-extraction.vercel.app",
+    screenshots: [
+      { src: "/Photos/smart-doc-extractor.png", caption: "Home Page" },
+    ],
+    sections: [
+      {
+        title: "About This Project",
+        content:
+          "Smart Document Extraction is a web application that leverages Google Gemini 3.5 AI to automatically scan, crop, and extract structured data from various documents such as ID cards and receipts. It features secure authentication and a private scan history powered by Supabase.",
+      },
+      {
+        title: "Key Features",
+        bullets: [
+          "AI-powered document scanning and cropping",
+          "Data extraction using Google Gemini 3.5",
+          "Secure authentication via Supabase",
+          "Private scan history management",
+          "Modern and responsive UI",
+        ],
+      },
+      {
+        title: "Technical Details",
+        content:
+          "Built with TypeScript and React. It uses Google Gemini 3.5 for the core AI extraction and Supabase for backend services including authentication and database.",
+      },
+    ],
+  },
+  {
+    title: "TaskFlow Pro",
+    category: "Web App",
+    description:
+      "TaskFlow Pro is a modern task and project management platform featuring a premium dark glassmorphism interface, drag-and-drop Kanban board, analytics dashboard, and real-time task collaboration.",
+    image: "/Photos/todo-app-login.png",
+    tech: ["TypeScript", "React", "Tailwind CSS"],
+    github: "https://github.com/Chogunlnwza/todo-app",
+    demo: "https://todo-app-six-ochre-60.vercel.app/login",
+    screenshots: [
+      { src: "/Photos/todo-app-login.png", caption: "Login Page" },
+    ],
+    sections: [
+      {
+        title: "About This Project",
+        content:
+          "TaskFlow Pro is a modern task and project management platform designed with a premium dark glassmorphism interface. It offers a comprehensive suite of tools for individuals and teams to organize tasks and collaborate effectively.",
+      },
+      {
+        title: "Key Features",
+        bullets: [
+          "Premium dark glassmorphism UI",
+          "Drag-and-drop Kanban board",
+          "Analytics dashboard",
+          "Real-time task collaboration",
+          "Responsive design",
+        ],
+      },
+      {
+        title: "Technical Details",
+        content:
+          "Developed with TypeScript and React, featuring a highly polished user interface with glassmorphism effects and drag-and-drop capabilities.",
+      },
+    ],
+  },
 ];
 
 // ─────────────────────────────────────────────────────────────
 // Main Portfolio Page
 // ─────────────────────────────────────────────────────────────
 function PortfolioHome({ projects, setProjects }) {
+  const [showAllProjects, setShowAllProjects] = useState(false);
   const { darkMode } = useTheme();
   const { repos, githubProfile, githubLoading } = useGithub();
   const { discordData, discordLoading } = useDiscord();
@@ -194,10 +265,24 @@ function PortfolioHome({ projects, setProjects }) {
             />
           </div>
           <div className="grid md:grid-cols-2 gap-8">
-            {projects.map((project, index) => (
+            {(showAllProjects ? projects : projects.slice(0, 4)).map((project, index) => (
               <ProjectCard key={index} project={project} darkMode={darkMode} index={index} />
             ))}
           </div>
+          {projects.length > 4 && (
+            <div className="mt-8 flex justify-center">
+              <button
+                onClick={() => setShowAllProjects(!showAllProjects)}
+                className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${
+                  darkMode
+                    ? "bg-gray-800/80 text-cyan-400 hover:bg-gray-700 border border-gray-700"
+                    : "bg-white text-cyan-600 hover:bg-gray-50 border border-gray-200 shadow-sm hover:shadow-md"
+                }`}
+              >
+                {showAllProjects ? "Show Less" : "View More Projects"}
+              </button>
+            </div>
+          )}
         </section>
 
         {/* GitHub Projects */}
